@@ -51,7 +51,7 @@ SBus servos can also be controlled from any of the autopilot's serial ports. The
 
 .. image:: ../../../images/sbus/sbus_inverter.png
 
-- Set the :ref:`SERIAL2_PROTOCOL <SERIAL2_PROTOCOL>` = 15 ("SBUS servo out") if using Telem2.  For other serial ports use the appropriate ``SERIALx_PROTCOL`` parameter.
+- Set the :ref:`SERIAL2_PROTOCOL <SERIAL2_PROTOCOL>` = 15 ("SBUS servo out") if using Telem2.  For other serial ports use the appropriate ``SERIALx_PROTOCOL`` parameter.
 - The port's baud rate parameter (in this case :ref:`SERIAL2_BAUD <SERIAL2_BAUD>` ) will automatically be set to 100,000
 
 SBUS to PWM Decoders
